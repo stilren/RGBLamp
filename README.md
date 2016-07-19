@@ -55,3 +55,6 @@ or use the `Color` class included
 ```c++
 myLamp.blink(Color::Orange);
 ```
+
+##Setup using a timer library
+Let the timer call `RGBLamp::rgbLampMain_10ms` every 10 ms instead of calling `RGBLamp::update`.
