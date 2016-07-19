@@ -29,11 +29,11 @@ void loop(){
 ##Set a color
 Calls to `setColor` can be placed anywhere in the code (also in a loop)
 ```c++
-myLamp.setColor(255,0,0); //Red
+myLamp.setColor(255,0,0);
 ```
 or use the `Color` class included
 ```c++
-myLamp.setColor(Color::Red); //Red
+myLamp.setColor(Color::Red);
 ```
 
 ##Fade to a color
